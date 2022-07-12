@@ -1,0 +1,444 @@
+p{
+    font-family: 'Open Sans',Arial,sans-serif;
+    align-content: center;
+    
+    
+}
+
+
+
+span{
+
+}
+
+h1{
+    
+    text-decoration: none;
+    font-family: 'Montserrat',Arial,sans-serif;
+    
+}
+
+.paragraph{
+    text-align: left;
+}
+
+.container-block{
+    display: flex;
+    width: 100%;
+    align-content:center;
+    align-items: center;
+    justify-content: center;
+}
+ a{
+    color: #FF6014; 
+    text-decoration:none;
+ }
+
+.flex-block{
+
+    margin: 25px;    
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+h3{
+    color: rgb(145, 106, 79);
+    text-decoration: underline;
+}
+
+.tn-atom{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+
+
+
+/*
+Код Дэнчика 
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+html , body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex-grow: 1;
+}
+
+.header, .footer, .wrapper{
+    width: 100%;
+}
+.wrapper{
+    background-color: white;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.kkkkkk{
+    padding-left: 100px;
+    font-size: 24px;
+    font-family: 'Open Sans',Arial,sans-serif;
+    text-align: left;
+}
+
+.kkkkkk h1{
+    font-family: 'Montserrat',Arial,sans-serif;
+}
+
+.kkkkkk h3{
+    padding-top: 40px;
+}
+
+
+
+.main_menu{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-bottom: 30px;
+}
+
+
+
+.logo-header{
+    size: 140px;
+    max-height: 130px;
+    max-width: 240px;
+}
+
+.links-header a{
+    font-size: 18px;
+    color: #FF6014;
+    text-decoration: none;
+    font-family: 'Montserrat',Arial,sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+a:hover{
+    color: #FC7C0D;
+}
+
+.links-header{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+
+.links-header ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.links-header li {
+    margin: 40px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.icons a{
+    padding: 15px;
+    
+}
+
+a{
+    
+    text-decoration: none !important;
+    border: none !important;
+    }
+
+.crit{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 30px;
+    
+    
+    
+}
+
+.criterion{
+    padding-left: 60px;
+    padding-bottom: 60px;
+    color: #000000;
+    font-size: 24px;
+    font-family: 'Open Sans',Arial,sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    
+    
+    
+}
+.criterion p {
+    padding-top: 20px;
+}
+
+.cri-title{
+    border-right: 2px solid grey;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Montserrat',Arial,sans-serif;
+    line-height: NaN;
+    font-weight: 600;
+    background-position: center center;
+    padding-right: 200px ;
+}
+
+.crit-button{
+    text-align: center;
+    padding-top: 100px;
+    
+}
+
+.crit-button button{
+    border-radius: 10px;
+    background-color: #9098cc;
+    border-color: transparent;
+    width: 440px;
+    height: 60px;
+    font-size: 18px;
+    font-family: 'Open Sans',Arial,sans-serif;
+    font-weight: 700;
+    
+}
+
+.crit-polit {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Open Sans',Arial,sans-serif;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    padding: 30px 0 100px 0;
+    
+}
+.crit-polit a{ 
+    color: #ff8562;
+    text-decoration: none;
+}
+
+.orange{
+    background-color:#ff6014;
+    color: white;
+}
+
+.ora-ora{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 80px;
+}
+
+.ora-title{
+    font-size: 20px;
+    font-family: 'Open Sans',Arial,sans-serif;
+    line-height: NaN;
+    font-weight: 700;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    text-align: center;
+    padding: 40px 0 30px 0;
+}
+
+.oratab{
+    
+    font-size: 28px;
+    font-family: 'Open Sans',Arial,sans-serif;
+    line-height: NaN;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+.ora-table-1{
+    border-right:2px solid whitesmoke ;
+}
+
+.course{
+    padding-top: 60px;
+    font-size: 24px;
+    font-family: 'Open Sans',Arial,sans-serif;
+    line-height: 1.25;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.course ul{
+
+    padding-top: 30px;
+}
+
+.teacher{
+    font-size: 28px;
+    font-family: 'Open Sans',Arial,sans-serif;
+    line-height: NaN;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+.teacher p{
+    margin: 30px;
+}
+
+.ora-table-2{
+    padding-left: 30px;
+}
+
+
+
+footer{
+
+    background-color: #e5e5e5;
+}
+
+.container-footer{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer_elem{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sources{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 600px;
+}
+
+.midis_source{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    word-break: break-word;
+    max-width: 300px;
+}
+
+.midis_source a{
+    color: black;
+    text-decoration: none;
+}
+
+.midis_source a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.midis_source p{
+    padding-left: 20px;
+    font-size: 14px;
+    font-family: 'Montserrat',Arial,sans-serif;
+    font-weight: 700;
+}
+
+.address{
+    min-height: 150px;
+    word-break: break-word;
+    max-width: 190px;
+    padding-left: 20px;
+}
+
+.address p{
+    padding-bottom: 20px;
+}
+
+.footer_link{
+    padding-left: 20px;
+}
+
+.footer_link li a{
+    color: #ff8562;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.footer_link li{
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+.guber_chel{
+    padding-top: 30px;
+    text-align: start;
+    width: 100%;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.guber_chel p {
+    font-size: 12px;
+    font-family: 'Open Sans',Arial,sans-serif;
+    line-height: 1.2;
+    font-weight: 400;
+    word-break: break-word;
+    max-width: 360px;
+}
+
+.midis_corp {
+    padding-left: 10px;
+    text-align: left;
+    padding-top: 30px;
+    width:100% ;
+}
+
+.midis_corp p{
+    width: 1000px;
+    border-top: 1px solid black;
+    font-size: 12px;
+    font-family: 'Open Sans',Arial,sans-serif;
+    font-weight: 400;
+}
+
